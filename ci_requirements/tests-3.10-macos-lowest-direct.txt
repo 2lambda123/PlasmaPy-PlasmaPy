@@ -14,7 +14,7 @@ argon2-cffi-bindings==21.2.0
     # via argon2-cffi
 asteval==1.0.5
     # via lmfit
-astropy==5.1
+astropy==5.3.3
     # via plasmapy (pyproject.toml)
 asttokens==2.4.1
     # via stack-data
@@ -121,7 +121,7 @@ jupyter-core==5.7.2
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.24.0
+jupyter-server==2.11.2
     # via
     #   notebook-shim
     #   voila
@@ -143,7 +143,7 @@ matplotlib-inline==0.1.7
     # via ipython
 mistune==0.8.4
     # via nbconvert
-mpmath==1.2.1
+mpmath==1.3.0
     # via plasmapy (pyproject.toml)
 mypy==1.11.0
     # via plasmapy (pyproject.toml)
@@ -288,7 +288,7 @@ referencing==0.35.1
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.28.0
+requests==2.32.2
     # via plasmapy (pyproject.toml)
 rpds-py==0.20.0
     # via
@@ -302,7 +302,7 @@ send2trash==1.8.3
     # via
     #   jupyter-server
     #   notebook
-setuptools==61.2.0
+setuptools==70.0.0
     # via plasmapy (pyproject.toml)
 six==1.16.0
     # via
@@ -337,7 +337,7 @@ tornado==6.4.1
     #   jupyter-server
     #   notebook
     #   terminado
-tqdm==4.65.0
+tqdm==4.66.3
     # via plasmapy (pyproject.toml)
 traitlets==5.14.3
     # via
@@ -364,7 +364,7 @@ virtualenv==20.26.6
     # via
     #   nox
     #   pre-commit
-voila==0.2.7
+voila==0.2.17
     # via plasmapy (pyproject.toml)
 wcwidth==0.2.13
     # via prompt-toolkit
