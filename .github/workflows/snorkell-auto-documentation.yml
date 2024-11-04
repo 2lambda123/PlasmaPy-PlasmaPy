@@ -1,10 +1,10 @@
-# This workflow will improvise current file with AI genereated documentation and Create new PR
+# This workflow will improvise current file with AI generated documentation and Create new PR
 
 name: Penify - Revolutionizing Documentation on GitHub
 
 on:
   push:
-    branches: ["main"]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -16,4 +16,4 @@ jobs:
       with:
         client_id: ${{ secrets.SNORKELL_CLIENT_ID }}
         api_key: ${{ secrets.SNORKELL_API_KEY }}
-        branch_name: "main"
+        branch_name: main
