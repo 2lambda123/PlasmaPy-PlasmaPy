@@ -349,7 +349,7 @@ tomli==2.0.2
     # via
     #   plasmapy (pyproject.toml)
     #   coverage
-tornado==6.4.1
+tornado==6.4.2
     # via
     #   ipykernel
     #   jupyter-client
